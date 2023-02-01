@@ -1,6 +1,6 @@
 body{
     font-family: 'Unbounded', cursive;
-    width: 1500px;
+    width: 1400px;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -16,12 +16,13 @@ body{
     display: flex;
     align-items: center;
     padding-top: 190px;
-    padding-left: 100px;
+    padding-left: 60px;
     box-sizing: border-box;
     gap: 10px;
     margin-top: -70px;
     padding-bottom: 40px;
     border-bottom: 5px solid goldenrod;
+    padding-right: 10px;
 }
 
 
@@ -32,9 +33,10 @@ body{
 .title {
     position: absolute;
     text-align: center;
-    margin-left: 650px;
+    margin-left: 600px;
     /* border-bottom: 5px solid goldenrod; */
     margin-top: -90px;
+    
 }
 .item-info{
     margin-left: 30px;
@@ -63,7 +65,7 @@ body{
 }
 .inp{
     position: absolute;
-    margin-left: 600px;
+    margin-left: 540px;
     margin-top: 30px;  
 }
 .inp button{
@@ -80,7 +82,10 @@ body{
     color: aliceblue;
 }
 .box{
-    width: 700px;
+    background-image: url(./images/healthy-fats.webp);
+    /* background-repeat: no-repeat; */
+    background-size: contain,cover;
+    width: 661px;
     height: 3085px;
     margin-left: 185px;
     margin-top: 120px;
@@ -115,7 +120,7 @@ body{
     width: 200px;
     height: 30px;
     position: absolute;
-    margin-left: 1000px;
+    margin-left: 880px;
     margin-top: 30px;
     border: 2px solid burlywood;
     border-radius: 10px;
@@ -136,6 +141,7 @@ body{
    margin-top: 600px;
    margin-left: -100px;
    opacity: 4px;
+   display: none;
 }
 .menu-item1{
     display: flex;
