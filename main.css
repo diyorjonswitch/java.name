@@ -1,0 +1,144 @@
+body{
+    font-family: 'Unbounded', cursive;
+    width: 1500px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background: rgb(245, 241, 235);
+}
+.menu-item header{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    padding-top: 190px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    gap: 10px;
+    margin-top: -70px;
+    padding-bottom: 40px;
+    border-bottom: 5px solid goldenrod;
+}
+
+
+.item-text{
+    width: 400px;
+    color: rgb(107, 107, 107);
+}
+.title {
+    position: absolute;
+    text-align: center;
+    margin-left: 650px;
+    /* border-bottom: 5px solid goldenrod; */
+    margin-top: -90px;
+}
+.item-info{
+    margin-left: 30px;
+    
+}
+.item-info h4{
+    font-weight: 200;
+}
+.photo{
+    width: 200px;
+    border: 5px solid goldenrod;
+    border-radius: 10px;
+}
+.price{
+    color: goldenrod;
+}
+.section-box{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 100px;
+    border: 10px groove goldenrod;
+    border-radius: 20px;
+    background: rgb(215, 182, 246);
+    box-shadow: 5px 1px 40px 10px gray;
+}
+.inp{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 30px;  
+}
+.inp button{
+    width: 100px;
+    height: 33px;
+    position:  absolute;
+    /* margin-top: -1px; */
+    margin-left: 180px;
+    background: burlywood;
+    border: burlywood;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.box{
+    width: 700px;
+    height: 3085px;
+    margin-left: 185px;
+    margin-top: 120px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    border: 5px solid goldenrod;
+    border-bottom: none;
+    border-right: none;
+    align-items: center;
+}
+.box img{
+    width: 200px;
+    height: 140px;
+    display: block;
+    
+}
+
+#value{
+    position: absolute;
+    border-right:none;
+    width: 200px;
+    height: 26px;
+    /* margin-top: 1px; */
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 3px solid burlywood;
+
+}
+
+#food{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 30px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+}
+#lunch{
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+}
+.image img{
+   position: absolute;
+   width: 900px;
+   height: 1500px;
+   margin-top: 600px;
+   margin-left: -100px;
+   opacity: 4px;
+}
+.menu-item1{
+    display: flex;
+}
+
+
